@@ -7,8 +7,8 @@ export default function Footer(props) {
         <footer>
             <div className="bgGradient"></div>
             <div>
-                <h2>{data?.title}</h2>
                 <h1>APOD Project</h1>
+                <h2>{data?.title}</h2>
             </div>
             <button onClick={() => {handleShowModal()}}>
                 <i className="fa-solid fa-circle-info"></i>
