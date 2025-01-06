@@ -1,3 +1,7 @@
 # React API project
 
-Using React and JS to make calls to the NASA APOD API. Works well on mobile too.
+Uses React, Vite, JS to build a website that displays information about NASA's astronomy picture of the day.
+
+Makes calls to the NASA APOD API
+
+Designed to work well on mobile devices
