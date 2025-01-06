@@ -118,6 +118,11 @@ footer button:hover {
   background: #030615;
 }
 
+.sidebarContents h2 {
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
 .sidebarContents div {
   flex: 1;
 }
@@ -136,6 +141,41 @@ footer button:hover {
 .sidebarContents button:hover {
   opacity: 0.7;
 }
+
+.loadingState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.loadingState i {
+  opacity: 0.2;
+  font-size: 3rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.descriptionTitle {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 
 @media (min-width: 640px) {
   .sidebar {
