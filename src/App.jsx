@@ -14,7 +14,7 @@ function App() {
 		<>
 			<Main />
 			{showModal && (
-			 	<SideBar />
+			 	<SideBar handleShowModal={handleShowModal}/>
 			)}
 			<Footer handleShowModal={handleShowModal} />
 		</>

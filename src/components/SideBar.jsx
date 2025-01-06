@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default function SideBar() {
+export default function SideBar(props) {
+    const { handleShowModal } = props
+
     return (
         <div className="sidebar">
             <div className="bgOverlay"></div>
@@ -11,7 +13,7 @@ export default function SideBar() {
                     <p>info info info</p>
                 </div>
 
-                <button>
+                <button onClick={() => {handleShowModal()}}>
                     <i className="fa-solid fa-right-long"></i>
                 </button>
             </div>
