@@ -1,3 +1,3 @@
 # React API project
 
-Using React and JS to make calls to the NASA APOD API
+Using React and JS to make calls to the NASA APOD API. Works well on mobile too.
